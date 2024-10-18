@@ -7,6 +7,7 @@ import os
 my_email = os.getenv("MY_EMAIL")
 my_password = os.getenv("MY_PASSWORD")
 
+
 now = dt.datetime.now() 
 data_birthday = pandas.read_csv("birthdays.csv")
 days = data_birthday["day"]
