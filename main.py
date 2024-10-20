@@ -17,7 +17,6 @@ for i, day in enumerate(days):
     if day == now.day and now.month == data_birthday["month"][i]:
         name_of_birthday_person = data_birthday["name"][i]
         email_of_birthday_person = data_birthday["email"][i]
-
         letters = ["letter_1.txt", "letter_2.txt", "letter_3.txt"]
         file_name = random.choice(letters)
         with open(file_name) as email_file:
